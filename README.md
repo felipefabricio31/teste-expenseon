@@ -1,5 +1,9 @@
 <h1>Manual para implantação da aplicação</h1>
 
+
+<img src="https://user-images.githubusercontent.com/29135156/97783250-3d63b400-1b75-11eb-8e12-adfb297989cb.gif" width="100%" heigth="auto">
+
+
 <h3>Introdução</h3>
 <p>O projeto foi elaborado seguindo as instruções do enunciado do teste, o backend (api) foi desenvolvida utilizando .NetCore ^3.1 e o banco de dados relacional escolhido foi o SQL SERVER.</p>
 
