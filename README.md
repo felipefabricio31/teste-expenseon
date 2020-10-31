@@ -21,7 +21,7 @@ Durante o desenvolvimento surgiu a necessidade de incluir algumas bibliotecas ex
     </blockquote>
 
 <h3>Para executar a API (dotnet core) será necessário instalar alguns pacotes:</h3>
-    <p>**Instalar as ferramentas:**</p>
+    <p><b>Instalar as ferramentas:</b></p>
         <p>Primeiro, você precisará instalar as [ferramentas de linha de comando do EF Core:](https://docs.microsoft.com/pt-br/ef/core/miscellaneous/cli/)</p>
         <ul>
             <li>
@@ -32,8 +32,20 @@ Durante o desenvolvimento surgiu a necessidade de incluir algumas bibliotecas ex
             </li>
         </ul>
 
-<p> **O  banco de dados relacional escolhido, foi o SQL Server, realizei toda a migração e testes em uma 
-hospedagem web (free), desta forma, não será necessário realizar algumas instalações e migrações, mas caso desejem, fiquem a vontade! [Link para instalações das migrações](https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)**
+<p> <b>O  banco de dados relacional escolhido, foi o SQL Server, realizei toda a migração e testes em uma 
+hospedagem web (free), desta forma, não será necessário realizar algumas instalações e migrações, mas caso desejem, fiquem a vontade! [Link para instalações das migrações](https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)</b>
 </p>
 
 
+
+# Frontend (WebExpenseOn)
+
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+
+## Servidor de desenvolvimento
+
+Execute  `ng serve --open` para um servidor de desenvolvimento. Navegue para `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
