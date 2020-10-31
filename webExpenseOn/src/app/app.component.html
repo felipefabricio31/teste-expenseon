@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <!-- Sidebar Holder -->
+  <nav id="sidebar" class="{{ menuAtivo }}">
+    <div class="sidebar-header">
+      <span class="form-logo">
+        <i class="zmdi zmdi-landscape"></i>
+      </span>
+    </div>
+    <app-menu-vertical></app-menu-vertical>
+  </nav>
+  <!-- Page Content Holder -->
+  <div id="content">
+    <app-nav-topo (fecharMenuToPai)="fecharMenu($event)"></app-nav-topo>
+    <!-- Container -->
+    <router-outlet></router-outlet>
+  </div>
+</div>

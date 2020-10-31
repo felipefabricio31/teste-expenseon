@@ -1,0 +1,16 @@
+.form-logo {
+    font-size: 60px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  
+  #sidebar .sidebar-header {
+    border-bottom: #fff solid 1px;
+  }

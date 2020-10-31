@@ -1,0 +1,52 @@
+# expenseon-teste
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/webExpenseOn/dist
+/webExpenseOn/tmp
+/webExpenseOn/out-tsc
+# Only exists if Bazel was run
+/webExpenseOn/bazel-out
+
+# dependencies
+/webExpenseOn/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/webExpenseOn/.idea
+/webExpenseOn/.project
+/webExpenseOn/.classpath
+/webExpenseOn/.c9/
+/webExpenseOn/*.launch
+v.settings/
+/webExpenseOn/*.sublime-workspace
+
+# IDE - VSCode
+/webExpenseOn/.vscode/*
+/webExpenseOn/!.vscode/settings.json
+/webExpenseOn/!.vscode/tasks.json
+/webExpenseOn/!.vscode/launch.json
+/webExpenseOn/!.vscode/extensions.json
+/webExpenseOn/.history/*
+
+# misc
+/webExpenseOn/.sass-cache
+/webExpenseOn/connect.lock
+/webExpenseOn/coverage
+/webExpenseOn/libpeerconnection.log
+/webExpenseOn/npm-debug.log
+/webExpenseOn/yarn-error.log
+/webExpenseOn/testem.log
+/webExpenseOn/typings
+
+# System Files
+/webExpenseOn/.DS_Store
+/webExpenseOn/Thumbs.db
+
+
+/WebApi/.vs
+/WebApi/bin
+/WebApi/obj
